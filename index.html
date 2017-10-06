@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman game HW</title>
+</head>
+<body>
+
+	<h1>HANGMAN</h1>
+	<h2>Harry Potter Edition!</h2>
+
+	<p>The computer has chosen the first name of a character from the Harry Potter stories.</p>
+	<p>Guess the letters in the name!</p>
+	<p>You have 7 tries, before you're DEAD!</p>
+
+
+	<div id="game">
+
+		<p>Current Name</p>
+
+		<div id="underlines">
+		<!-- underscores to match length of name 
+			Also fills in correct letters guessed by the user
+
+			A div for each letter? So a row of boxes?-->
+			
+		
+		</div>
+
+		<p>Number of Guesses remaining:</p>
+
+		<div>
+		<!-- number of guesses counting down from 7-->
+		</div>
+
+		<p>Incorrect Letters Guessed:</p>
+
+		<div>
+		<!-- Letters already guessed, resets for win or lose -->
+		</div>
+
+	</div>
+
+
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
